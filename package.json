@@ -1,0 +1,41 @@
+{
+  "name": "@synapsmedia/sentry-rate-limiter",
+  "version": "0.0.0-development",
+  "description": "In-memory rate limiter for Sentry error reporting to prevent duplicate error spam",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "sentry",
+    "rate-limit",
+    "error-tracking",
+    "monitoring",
+    "deduplication"
+  ],
+  "author": "Synaps Media",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synapsmedia/sentry-rate-limiter.git"
+  },
+  "peerDependencies": {
+    "@sentry/node": "^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/github": "^9.0.0",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "@sentry/node": "^8.0.0",
+    "@types/node": "^20.0.0",
+    "semantic-release": "^23.0.0",
+    "typescript": "^5.0.0"
+  }
+}
