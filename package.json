@@ -1,6 +1,6 @@
 {
   "name": "@synapsmedia/sentry-rate-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "In-memory rate limiter for Sentry error reporting to prevent duplicate error spam",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/synapsmedia/sentry-rate-limiter.git"
+    "url": "git+https://github.com/synapsmedia/sentry-rate-limiter.git"
   },
   "publishConfig": {
     "access": "public"
